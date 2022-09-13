@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Hotel San Ramón | Entre Ríos, Chajarí</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <header>
+    <nav class="hero__nav">
+      <a class="logo__title" href="index.html">
+        <p class="logo__title-hotel">Hotel</p>
+        <p class="logo__title-sanRamon">San Ramón</p>
+      </a>
+
+      <ul class="hero__nav-list">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="services.html">Servicios</a></li>
+        <li><a href="rooms.html">Habitaciones</a></li>
+        <li><a href="contact.html">Sobre nosotros</a></li>
+      </ul>
+
+
+      <!-- burguer icon para futuro menu mobile -->
+
+      <!-- <label for="hero__nav__menu-check">
+        <img  class="hero__nav__menu-icon" src="../svg/menu-icon.svg" alt="Icono de menu">
+      </label>
+      <input class="hero__nav__menu-check" type="checkbox" id="hero__nav__menu-check"> -->
+      
+    </nav>
+  </header>
+
+  <main class="main__contact">
+    <h1 class="contact-title">Contactate con nosotros</h1>
+    <p class="contact-subtitle">Dejanos tus datos y reserva tu lugar</p>
+    <form class="contact-form" action="">
+      <label for="name">Nombre y apellido</label>
+      <input type="text" name="name" id="name">
+      <label for="people">Cantidad de personas</label>
+      <select name="people" id="people">
+        <option value="value1">1</option>
+        <option value="value2">2</option>
+        <option value="value3">3</option>
+        <option value="value4">4</option>
+        <option value="value5">5</option>
+        <option value="value-more">Mas de 5</option>
+      </select>
+      <label for="from">Desde</label>
+      <input type="date" name="from" id="from">
+      <label for="to">Hasta</label>
+      <input type="date" name="to" id="to">
+      <label for="phone">Celular</label>
+      <input type="tel" name="phone" id="phone">
+      <label for="email">Correo electronico</label>
+      <input type="email" name="email" id="email">
+      <label for="send">Enviar</label>
+      <input type="submit" name="send" id="send">
+    </form>
+  </main>
+
+  <footer> 
+    <a class="logo__title"  href="index.html">
+      <p class="logo__title-hotel">Hotel</p>
+      <p class="logo__title-sanRamon">San Ramón</p>
+    </a>
+
+    <div class="footer__list__wrapper footer__list__wrapper-1">
+      <ul class="footer__list footer__list-1">
+        <li><a href="contact.html">Contacto</a></li>
+        <li><a href="services.html">Servicios</a></li>
+        <li><a href="rooms.html">Habitaciones</a></li>
+        <li><a href="about.html">Sobre nosotros</a></li>
+        <!-- <li><a href="#">Chajari, nuestra ciudad</a></li> -->
+      </ul>
+    </div>
+    
+
+    <div class="footer__contact">
+      <div class="footer__contact-we-call-you">
+        <h4>Nosotros te llamamos</h4>
+        <p>Dejanos tu número</p>
+        <form action="">
+          <input type="tel" placeholder="Tu número es...">
+          <button class="footer__contact__we-call-you-submit" type="submit">Enviar</button>
+        </form>
+      </div>
+
+      <a href="contact.html" class="footer__contact-make-your-book">
+        <p>Haz tu reserva ahora</p>
+      </a>
+    </div>
+
+    <div class="footer__list__wrapper footer__list__wrapper-2">
+      <ul class="footer__list footer__list-2">
+        <li><a href="https://walink.co/d543dc" target="_blank">03456 407586</a></li>
+        <li><a href="https://goo.gl/maps/d1zqcMuMxEJX4DaL9" target="_blank">Roque Saenz Peña 3876</a></li>
+      </ul>
+    </div>
+    
+    <sub>2021 by Cometti Devs</sub>
+  </footer>
+
+</body>
+</html>
